@@ -15,21 +15,21 @@ let
       {
         arch = "x86_64";
         gcclib = "${lib.getLib stdenv.cc.cc}/lib";
-        sha256 = "sha256-HH/pLZmDr6m/B3e6MHafDGnNWR83oR2y1ijVMR/LOF0=";
+        sha256 = "sha256-durR4j/KYdWByAfJx5ErLQscrA4bOzwaPmy39Ptd6cg=";
         webarchive = "20220519080155";
       }
     else
       {
         arch = "i386";
         gcclib = "${lib.getLib stdenv.cc.cc}/lib";
-        sha256 = "sha256-28dmdnJf+qh9r3F0quwlYXB/UqcOzcHzuzFq8vt2bf0=";
+        sha256 = "sha256-Re10Nebbgneze9VMBy/qjFHtYj67nZrAHIz474mduqM=";
         webarchive = "20220519080430";
       };
 in
 stdenv.mkDerivation rec {
 
   pname = "yandex-disk";
-  version = "0.1.6.1080";
+  version = "0.1.6.1081";
 
   src = fetchurl {
     urls = [
