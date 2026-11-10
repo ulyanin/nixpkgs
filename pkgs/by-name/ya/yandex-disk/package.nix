@@ -69,8 +69,7 @@ stdenv.mkDerivation rec {
   meta = {
     homepage = "https://help.yandex.com/disk/cli-clients.xml";
     description = "Free cloud file storage service";
-    maintainers = [
-    ];
+    maintainers = with lib.maintainers; [ ulyanin ];
     platforms = [
       "i686-linux"
       "x86_64-linux"
