@@ -30650,6 +30650,12 @@
     githubId = 1607770;
     name = "Ulrik Strid";
   };
+  ulyanin = {
+    email = "ulyanin1997@gmail.com";
+    github = "ulyanin";
+    githubId = 6107920;
+    name = "Dmitrii Ulianin";
+  };
   ulysseszhan = {
     email = "ulysseszhan@gmail.com";
     github = "UlyssesZh";
